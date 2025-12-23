@@ -41,10 +41,6 @@ INSERT INTO categories (name) VALUES
 INSERT INTO users (name, email, password, role) VALUES 
 ('Admin', 'admin@neonreads.com', 'JAvlGPq9JyTdtvBO6x2llnRI1+gxwIyPqCKAn3THIKk=', 'ADMIN');
 
--- Default Customer (Password: user123)
--- SHA-256 Hash: 5gbjiw2MGbJM8O44CBgxYup81j/3kS27IrXoAyhrREY=
-INSERT INTO users (name, email, password, role) VALUES 
-('John Doe', 'john@example.com', '5gbjiw2MGbJM8O44CBgxYup81j/3kS27IrXoAyhrREY=', 'CUSTOMER');
 
 -- Books
 INSERT INTO books (title, author, price, category_id, description, stock, image_url) VALUES
@@ -170,3 +166,5 @@ INSERT INTO books (title, author, price, category_id, description, stock, image_
 ('Girl, Wash Your Face', 'Rachel Hollis', 350.00, 6, 'Motivation.', 60, 'https://covers.openlibrary.org/b/isbn/9781400201655-L.jpg'),
 ('Eat That Frog!', 'Brian Tracy', 250.00, 6, 'Productivity.', 65, 'https://covers.openlibrary.org/b/isbn/9781626569416-L.jpg'),
 ('The 5 AM Club', 'Robin Sharma', 399.00, 6, 'Morning routine.', 55, 'https://covers.openlibrary.org/b/isbn/9781443456623-L.jpg');
+
+select * from users;

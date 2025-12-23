@@ -25,4 +25,5 @@ NeonReads is a modern, full-stack Java Web Application for browsing and purchasi
 
 ## Default Credentials
 - **Admin**: `admin@neonreads.com` / `admin123`
-- **Customer**: `john@example.com` / `user123`
+- **Customer**: `user@neonreads.com` / `user123`
+
